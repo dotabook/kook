@@ -2,10 +2,10 @@
 
 A low level library for interacting with Kook bot API. Currently, it is WIP.
 
-[![Go Reference](https://pkg.go.dev/badge/github.com/lonelyevil/kook.svg)](https://pkg.go.dev/github.com/lonelyevil/kook)
-[![Go Report Card](https://goreportcard.com/badge/github.com/lonelyevil/kook)](https://goreportcard.com/report/github.com/lonelyevil/kook)
+[![Go Reference](https://pkg.go.dev/badge/github.com/dotabook/kook.svg)](https://pkg.go.dev/github.com/dotabook/kook)
+[![Go Report Card](https://goreportcard.com/badge/github.com/dotabook/kook)](https://goreportcard.com/report/github.com/dotabook/kook)
 [![Server Badger](https://img.shields.io/badge/kookapp-dev--chat-informational)](https://kaihei.co/r5s1WO)
-[![FOSSA Status](https://app.fossa.com/api/projects/git%2Bgithub.com%2Flonelyevil%2Fkook.svg?type=shield)](https://app.fossa.com/projects/git%2Bgithub.com%2Flonelyevil%2Fkook?ref=badge_shield)
+[![FOSSA Status](https://app.fossa.com/api/projects/git%2Bgithub.com%2Fdotabook%2Fkook.svg?type=shield)](https://app.fossa.com/projects/git%2Bgithub.com%2Fdotabook%2Fkook?ref=badge_shield)
 
 ## Get Started
 
@@ -15,12 +15,12 @@ It is not recommended to use it in production until it releases `v1.0.0`.
 
 This assumes that you already have a working Go environment.
 
-```go get github.com/lonelyevil/kook```
+```go get github.com/dotabook/kook```
 
 Other than the library itself, you need to install a logger and an adapter for logger.
 Personally, I only implement the adapter for [phuslu/log](https://github.com/phuslu/log). So, in order to use the library, the following installation is necessary.
 
-```go get github.com/lonelyevil/kook/log_adapter/plog```
+```go get github.com/dotabook/kook/log_adapter/plog```
 
 ### Usage
 
@@ -52,7 +52,7 @@ Bug reports and code suggestions are greatly welcomed.
 kook is a free and open source software library distributed under the terms of [ISC License](LICENSE).
 
 
-[![FOSSA Status](https://app.fossa.com/api/projects/git%2Bgithub.com%2Flonelyevil%2Fkook.svg?type=large)](https://app.fossa.com/projects/git%2Bgithub.com%2Flonelyevil%2Fkook?ref=badge_large)
+[![FOSSA Status](https://app.fossa.com/api/projects/git%2Bgithub.com%2Fdotabook%2Fkook.svg?type=large)](https://app.fossa.com/projects/git%2Bgithub.com%2Fdotabook%2Fkook?ref=badge_large)
 
 ## Special Thanks To:
 
